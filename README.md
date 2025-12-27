@@ -38,3 +38,37 @@ com.example.RestApiwithDatabase
 This structure follows industry-standard layered architecture:
 
 Controller → Service → Repository → Database
+🔗 Sample REST Endpoints
+Method	Endpoint	Description
+POST	/products	Add new product
+GET	/products	Get all products
+GET	/products/{id}	Get product by ID
+
+🧪 API Testing
+
+All APIs are tested using Postman with JSON request/response.
+
+Sample Request Body
+{
+  "name": "Boat Headphones",
+  "category": "Electronics",
+  "price": 1299,
+  "quantity": 50,
+  "brand": "Boat",
+  "available": true
+}
+
+⚙️ How to Run the Project
+
+Clone the repository
+
+git clone https://github.com/your-username/springRestApiwithDatabase.git
+
+
+Import into IDE (STS / IntelliJ / Eclipse)
+
+Configure database in application.properties
+
+Run as Spring Boot Application
+
+Test APIs using Postman
