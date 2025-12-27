@@ -50,12 +50,13 @@ All APIs are tested using Postman with JSON request/response.
 
 Sample Request Body
 {
-  "name": "Boat Headphones",
-  "category": "Electronics",
-  "price": 1299,
-  "quantity": 50,
-  "brand": "Boat",
-  "available": true
+    "name":"Roshan",
+    "email":"Roshan@123gmail.com",
+    "password":1123,
+    "dep":"hr",
+    "address":"Rohanpur",
+    "salary":100000.00
+
 }
 
 ⚙️ How to Run the Project
